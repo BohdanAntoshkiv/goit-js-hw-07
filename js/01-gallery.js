@@ -46,6 +46,7 @@ function onClick(event) {
     }
   );
 
+
   instance.show();
 
   function onEscape(event) {
