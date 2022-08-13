@@ -6,8 +6,6 @@ console.log(galleryItems);
 //Створення і рендер розмітки на підставі масиву даних galleryItems і наданого шаблону елемента галереї.
 
 const gallery = document.querySelector(".gallery");
-const galleryLink = document.querySelector(".gallery__link");
-const galleryImg = document.querySelector(".gallery__image");
 
 const items = galleryItems
   .map(
